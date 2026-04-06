@@ -1,0 +1,187 @@
+*
+{
+margin:0;
+padding: 0;
+font-family: 'poppins' , sans-serif;
+}
+
+body
+{
+ background-color:rgb(0,0,33) ;
+ color:white;
+}
+
+nav
+{
+    display:flex;
+    justify-content:space-between;
+    padding:0 2.5rem;
+    align-items: center;
+    height:65px;
+    background-color: rgb(18,18,62);
+
+}
+
+nav ul
+{
+    display:flex;
+    justify-content: center;
+    
+
+}
+
+nav ul li
+{
+     list-style:none;
+     margin: 0px 15px;
+     
+}
+
+.left
+{
+    font-size: 1.2rem;
+}
+
+.firstSection
+{ display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin:13.5vh 0;
+
+
+
+}
+
+.firstSection>div
+{
+    width: 30%;
+}
+
+.leftSection
+{   font-size:2.5rem;
+    padding-bottom: 1.5rem;
+    line-height: 3rem;
+}
+
+.rightSection
+{border:2.8px solid white ;
+ display: flex;
+ justify-content: center;
+ align-content:center;
+border-radius: 50%;
+height: 400px ;
+width:400px;
+}
+
+.rightSection:hover
+{
+  box-shadow: 2px 2px 8px white;
+}
+.border1:hover
+{
+    box-shadow: 1px 1px 8px rgb(170, 107, 228);
+
+}
+.rightSection img
+{
+    border-radius: 50%;
+    height: 400px;;
+    width: 400px;
+}
+
+.border1
+{border:3px solid rgb(170, 107, 228);
+    display: flex;
+    justify-content: center;
+    align-content:center;
+   border-radius: 50%;
+   height: 400px ;
+   width:400px;
+
+}
+.profile
+{ 
+  width: 80%;
+
+}
+
+.purple
+{
+    color: rgb(170, 107, 228);
+}
+
+ul li a
+{
+    text-decoration: none;
+    color:white;
+    transition: transform 0.3s ease-in-out;
+    
+}
+
+nav ul li a:hover
+{   color:rgb(153,153,226);
+    font-size: 1.01rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 4px solid  rgb(170, 107, 228);
+
+}
+
+#element
+{ 
+    color: rgb(170, 107, 228);
+
+}
+
+.b
+{
+    background-color: transparent;
+    border:2px solid white;
+    color:white;
+
+    border-radius: 5%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-right: 0.3rem;
+    margin-top: 1rem;
+}
+
+.b a
+{
+    text-decoration: none;
+    color:white;
+}
+
+.b:hover
+{
+    border:1px solid rgb(170, 107, 228);
+
+}
+.b a:hover
+{
+    color:rgb(170, 107, 228);
+
+}
+.divider
+{ background-color: #d5d5e1;
+height: 0.2px;
+margin:0 84px;
+align-items: center;
+opacity: 0.2;
+   
+}
+
+.secondSection,.thirdSection
+{
+    max-width: 80vw;
+    margin: auto;
+}
+
+.secondSection p
+{
+    line-height: 1.3rem;
+}
+
+.secondSection h1,.thirdSection h1
+{
+    font-size:2rem;
+}
